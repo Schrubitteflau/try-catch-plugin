@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@es-joy/jsdoc-eslint-parser": "^0.8.2",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "eslint": "^8.13.0",
+    "eslint-plugin-my-eslint-rules": "file:../my-eslint-rules",
+    "typescript": "^4.6.3"
+  }
+}

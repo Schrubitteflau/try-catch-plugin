@@ -1,0 +1,25 @@
+/*{
+    "parserOptions": {
+        "ecmaVersion": 2018
+        //"requireConfigFile": false
+    },
+    //"parser": "@es-joy/jsdoc-eslint-parser",
+    "rules": {
+        "my-eslint-rules/async-func-name": "warn",
+        "my-eslint-rules/async-func-name1": "warn"
+    },
+    "plugins": ["my-eslint-rules"]
+}
+*/
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint",
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended"
+    ]
+  }
+  
